@@ -29,3 +29,17 @@
     margin: auto;
   height:100%;
 }
+
+.container-paries{
+  border: 1px solid #eeeeee;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.background-white{
+  background-color:  white;
+}
+
+.text-red{
+  color: red;
+}
