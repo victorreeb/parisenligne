@@ -4,11 +4,12 @@
 <body>
 
 <div id="navbar"></div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel"></div>
 <div class="container">
 
   <ul class="nav nav-tabs">
-    <li><a href="details.html">Details</a></li>
-    <li><a href="details_paries.html">Tous les paries</a></li>
+    <li><a href="details.html">Détails</a></li>
+    <li><a href="details_paries.html">Tous les paris</a></li>
     <li class="active"><a href="details_equipe.html">Equipes</a></li>
     <li><a href="details_but.html">Buteur</a></li>
     <li><a href="details_score.html">Score</a></li>
@@ -37,7 +38,7 @@
                <a href="#" type="button" class="btn btn-default btn-sm  background-white text-red">5.17</a>
             </div>
         </div>
-        <h4>But de l'equipe visiteuse</h4>
+        <h4>But de l'équipe visiteuse</h4>
         <div class="row">
           <div class="col-xs-2">
             <span>Turquie</span>
@@ -90,6 +91,7 @@
   $(function(){
     $("#header").load("header.html");
     $("#navbar").load("navbar_session.html");
+    $("#myCarousel").load("carrousel.html");
   });
 </script>
 
