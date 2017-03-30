@@ -81,6 +81,18 @@ xheader
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
   z-index: 4;
 }
+
+.footer {
+  position: fixed;
+  top: 80%;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: #31353d;
+  text-align: center;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+  z-index: 4;
+}
 @media only screen and (min-width: 1200px) {
   header {
     height: 80px;
