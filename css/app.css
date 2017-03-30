@@ -43,3 +43,11 @@
 .text-red{
   color: red;
 }
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    line-height: 1;
+    margin: 0 auto;
+    max-width: 100%;
+}
