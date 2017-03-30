@@ -10,49 +10,74 @@
     <li><a href="details.html">Détails</a></li>
     <li class="active"><a href="details_paries.html">Tous les Paris</a></li>
     <li><a href="details_equipe.html">Equipes</a></li>
-    <li><a href="details_but.html">But</a></li>
+    <li><a href="details_but.html">Buteur</a></li>
     <li><a href="details_score.html">Score</a></li>
   </ul>
-  <div id="myTabContent" class="tab-content">
-    <div class="tab-pane fade active in" id="home">
-
+  <div class="tab-content container-paries">
     <div class="card">
       <div class="card-block">
-        <h4 class="card-title">PARIS</h4>
+        <h4 class="card-title">Turquie - Finlande</h4>
         <h6 class="card-subtitle mb-2 text-muted glyphicon glyphicon-football-soccer">Football - Qualif. Europe CDM</h6>
         <p class="card-text">
-
-        <div class="row text-center">
-          <div class="col-xs-2">
-            <br>
-            <p>3H</p>
-          </div>
-          <div class="col-xs-2">
-            <span>1</span>
-            <br>
-            <button type="button" class="btn btn-default btn-sm">1.50</button>
-          </div>
-          <div class="col-xs-2">
-             <span>N</span>
-             <br>
-             <button type="button" class="btn btn-default btn-sm">2.4</button>
-          </div>
-          <div class="col-xs-2">
-             <span>2</span>
-             <br>
-             <button type="button" class="btn btn-default btn-sm">5.17</button>
-          </div>
-
+          <h4>Resultat</h4>
+          <div class="row">
+            <div class="col-xs-2">
+              <span>Turquie</span>
+              <br>
+              <a href="#" type="button" class="btn btn-default btn-sm background-white text-red">1.50</a>
+            </div>
+            <div class="col-xs-2">
+               <span>Nul</span>
+               <br>
+               <a href="#" type="button" class="btn btn-default btn-sm background-white text-red">2.4</a>
+            </div>
+            <div class="col-xs-2">
+               <span>Finlande</span>
+               <br>
+               <a href="#" type="button" class="btn btn-default btn-sm  background-white text-red">5.17</a>
+            </div>
         </div>
+        <h4>Resultat double</h4>
+        <div class="row">
+          <div class="col-xs-2">
+            <span>Turquie</span>
+            <br>
+            <a href="#" type="button" class="btn btn-default btn-sm background-white text-red">1.50</a>
+          </div>
+          <div class="col-xs-2">
+             <span>Nul</span>
+             <br>
+             <a href="#" type="button" class="btn btn-default btn-sm background-white text-red">2.4</a>
+          </div>
+          <div class="col-xs-2">
+             <span>Finlande</span>
+             <br>
+             <a href="#" type="button" class="btn btn-default btn-sm background-white text-red">5.17</a>
+          </div>
       </div>
+      <h4>Nombre total de but</h4>
+      <div class="row">
+        <div class="col-xs-2">
+          <span>Turquie</span>
+          <br>
+          <a href="#" type="button" class="btn btn-default btn-sm text-red background-white">1.50</a>
+        </div>
+        <div class="col-xs-2">
+           <span>Nul</span>
+           <br>
+           <a href="#" type="button" class="btn btn-default btn-sm  background-white text-red">2.4</a>
+        </div>
+        <div class="col-xs-2">
+           <span>Finlande</span>
+           <br>
+           <a href="#" type="button" class="btn btn-default btn-sm background-white text-red">5.17</a>
+        </div>
     </div>
 
-
-  </div>
+      </div>
   </div>
 </div>
-
-
+</div>
 
 
 <script
@@ -66,6 +91,7 @@
     $("#header").load("header.html");
     $("#navbar").load("navbar.html");
     $("#myCarousel").load("carrousel.html");
+    $("#navbar").load("navbar_session.html");
   });
 </script>
 
