@@ -9,27 +9,17 @@
 <body>
 
 <div id="navbar"></div>
+
+<!--
 <div id="myCarousel" class="carousel slide" data-ride="carousel"></div>
 <div class="header">
     <div id="logo"><img src="img/cd-logo.svg" alt="Homepage"></div>
     <div id="cd-cart-trigger"><a class="cd-img-replace" href="#0">Cart</a></div>
 </div>
+-->
 
 
 
-<main>
-    <ul id="cd-gallery-items" class="cd-container">
-        <li>
-
-        </li>
-
-        <li>
-
-        </li>
-
-
-    </ul> <!-- cd-gallery-items -->
-</main>
 
 <div id="cd-shadow-layer"></div>
 
@@ -78,27 +68,22 @@
 
 
 
-<script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
 
-<!-- chargement des partials -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
 <script>
-    $(function(){
-        $("#header").load("header.html");
-        $("#navbar").load("navbar.html");
-        $("#myCarousel").load("carrousel.html");
-        $("#navbar").load("navbar_session.html");
-
-    });
+  $(function(){
+    $("#header").load("header.html");
+    $("#navbar").load("navbar_session.html");
+    $("#myCarousel").load("carrousel.html");
+  });
 </script>
 
 <!-- Latest compiled and minified JavaScript -->
 
 
-
-<script src="js/main.js"></script>
 </body>
 
 
